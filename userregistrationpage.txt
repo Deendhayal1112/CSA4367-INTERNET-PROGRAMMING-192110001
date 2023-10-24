@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="user-dashboard.html" method="post">
+        Mobile Number: <input type="tel" name="mobile" required><br>
+        Password: <input type="password" name="password" required><br>
+        <!-- Add other registration fields here -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
